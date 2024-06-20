@@ -8,7 +8,7 @@ import Service from "./components/Service";
 
 function App() {
   return (
-    <Router basename="/evn-business">
+    <Router basename="/EVN-REACT-REACTJS">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<News />} />
