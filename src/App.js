@@ -8,17 +8,15 @@ import Service from "./components/Service";
 
 function App() {
   return (
-    <Router basename="/EVN-REACT-REACTJS">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/service" element={<Service />} />
-        <Route path="/finance" element={<Finance />} />
-        <Route path="/coin" element={<Coin />}>
-          <Route path=":coinId" element={<Coin />} />
-        </Route>
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path={"/"} element={<Home />}></Route>
+      <Route path={"/news"} element={<News />}></Route>
+      <Route path={"/service"} element={<Service />}></Route>
+      <Route path={"/finance"} element={<Finance />} />
+      <Route path={"/coin"} element={<Coin />}>
+        <Route path={":coinId"} element={<Coin />} />
+      </Route>
+    </Routes>
   );
 }
 

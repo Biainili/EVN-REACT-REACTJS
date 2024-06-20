@@ -13,33 +13,30 @@ function Home() {
   const onNewsPage = () => {
     navigate("/news");
   };
-  const onHomePage = () => {
-    navigate("/");
-  };
-  const onFinace = () => {
+  const onFinance = () => {
     navigate("/finance");
   };
   return (
     <div>
       <Navbar />
       <Hero />
-      <div className="max-w-[1240px] mx-auto py-16 px-4  text-center gap-2 md:gap-4">
+      <div className="max-w-[1240px] mx-auto py-16 px-4 text-center gap-2 md:gap-4">
         <h1 className="text 4xl">Here's what you'll find with us</h1>
-        <br></br>
-        <hr class="w-auto h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-gray-100"></hr>
         <br />
-        <div className="relative p-4 ">
-          <h3 class="absolute z-10 top-[15%] left-[75%] translate-x-[-50%] translate-y-[-50%] text-black sm:top-[50%] sm:left-[25%] sm:text-white text-3xl md:text-5xl lg:text-8xl sm:text-12xl font-bold">
+        <hr className="w-auto h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-gray-100"></hr>
+        <br />
+        <div className="relative p-4">
+          <h3 className="absolute z-10 top-[15%] left-[75%] translate-x-[-50%] translate-y-[-50%] text-black sm:top-[50%] sm:left-[25%] sm:text-white text-3xl md:text-5xl lg:text-8xl sm:text-12xl font-bold">
             NEWS
           </h3>
-          <div className="relative blok sm:flex">
+          <div className="relative block sm:flex">
             <img
               src={ImgForNews}
               alt="/"
               className="w-1/2 h-auto object-cover relative border-4 border-gray-900/60 shadow-lg"
             />
             <div>
-              <p className="ml-1 sm:mt-5 sm:ml-12 text-start text-sm py-4  sm:text-center sm:text-[16px] font-sans text-gray-700 dark:text-gray-600 leading-relaxed">
+              <p className="ml-1 sm:mt-5 sm:ml-12 text-start text-sm py-4 sm:text-center sm:text-[16px] font-sans text-gray-700 dark:text-gray-600 leading-relaxed">
                 Welcome to our "News" section, where the world's pulse converges
                 with a touch of Armenian business excellence. Dive into the
                 latest happenings in the realm of global business, world
@@ -49,7 +46,10 @@ function Home() {
                 global connectivity. Stay informed, stay inspired, and stay
                 connected with the world's ever-evolving narratives.
               </p>
-              <button onClick={onNewsPage} className="mt-0 sm:mt-6 h-[50px] w-full sm:ml-5 sm:w-2/3  hover:bg-none hover:text-gray-700 hover:underline hover:font-bold hover:text-[18px] transition duration-300 hover:shadow-md ">
+              <button
+                onClick={onNewsPage}
+                className="mt-0 sm:mt-6 h-[50px] w-full sm:ml-5 sm:w-2/3 hover:bg-none hover:text-gray-700 hover:underline hover:font-bold hover:text-[18px] transition duration-300 hover:shadow-md"
+              >
                 Go to the NEWS
               </button>
             </div>
@@ -57,17 +57,17 @@ function Home() {
         </div>
         <br />
         <div className="relative p-4">
-          <h3 class="absolute z-10 top-[15%] left-[75%] translate-x-[-50%] translate-y-[-50%] text-black sm:top-[50%] sm:left-[25%] sm:text-white text-3xl md:text-5xl lg:text-8xl sm:text-12xl font-bold">
+          <h3 className="absolute z-10 top-[15%] left-[75%] translate-x-[-50%] translate-y-[-50%] text-black sm:top-[50%] sm:left-[25%] sm:text-white text-3xl md:text-5xl lg:text-8xl sm:text-12xl font-bold">
             FINANCE
           </h3>
-          <div className="relative blok sm:flex">
+          <div className="relative block sm:flex">
             <img
               src={ImgForFinance}
               alt="/"
               className="w-1/2 h-auto object-cover relative border-4 border-gray-900/60 shadow-lg"
             />
             <div>
-              <p className="ml-1 sm:mt-5 sm:ml-12 text-start text-sm py-4  sm:text-center sm:text-[16px] font-sans text-gray-700 dark:text-gray-600 leading-relaxed">
+              <p className="ml-1 sm:mt-5 sm:ml-12 text-start text-sm py-4 sm:text-center sm:text-[16px] font-sans text-gray-700 dark:text-gray-600 leading-relaxed">
                 Welcome to our "Finance" section, your gateway to the intricate
                 world of fiscal dynamics within Armenia. Explore a treasure
                 trove of valuable information, from real-time exchange rates
@@ -80,7 +80,10 @@ function Home() {
                 trusted resource. Stay informed, make informed decisions, and
                 navigate the financial terrain with confidence.
               </p>
-              <button onClick={onFinace}  className="mt-0 sm:mt-6 h-[50px] w-full sm:ml-5 sm:w-2/3  hover:bg-none hover:text-gray-700 hover:underline hover:font-bold hover:text-[18px] transition duration-300 hover:shadow-md ">
+              <button
+                onClick={onFinance}
+                className="mt-0 sm:mt-6 h-[50px] w-full sm:ml-5 sm:w-2/3 hover:bg-none hover:text-gray-700 hover:underline hover:font-bold hover:text-[18px] transition duration-300 hover:shadow-md"
+              >
                 Go to the FINANCE
               </button>
             </div>
@@ -88,19 +91,19 @@ function Home() {
         </div>
         <br />
         <div className="relative p-4">
-          <h3 class="absolute z-10 top-[15%] left-[75%] translate-x-[-50%] translate-y-[-50%] text-black sm:top-[50%] sm:left-[25%] sm:text-white text-3xl md:text-5xl lg:text-8xl sm:text-12xl font-bold">
+          <h3 className="absolute z-10 top-[15%] left-[75%] translate-x-[-50%] translate-y-[-50%] text-black sm:top-[50%] sm:left-[25%] sm:text-white text-3xl md:text-5xl lg:text-8xl sm:text-12xl font-bold">
             SERVICES
           </h3>
-          <div className="relative blok sm:flex">
+          <div className="relative block sm:flex">
             <img
               src={ImgForServices}
               alt="/"
               className="w-1/2 h-auto object-cover relative border-4 border-gray-900/60 shadow-lg"
             />
             <div>
-              <p className="ml-1 sm:mt-5 sm:ml-12 text-start text-sm py-4  sm:text-center sm:text-[16px] font-sans text-gray-700 dark:text-gray-600 leading-relaxed">
+              <p className="ml-1 sm:mt-5 sm:ml-12 text-start text-sm py-4 sm:text-center sm:text-[16px] font-sans text-gray-700 dark:text-gray-600 leading-relaxed">
                 Welcome to our "Services" section, the ultimate resource for
-                comprehensive business solutions.Business Consulting: Uncover
+                comprehensive business solutions. Business Consulting: Uncover
                 strategic insights to navigate the dynamic business landscape.
                 Marketing and SMM: Elevate your brand with cutting-edge
                 marketing strategies and expert social media management. Firm
@@ -114,7 +117,10 @@ function Home() {
                 negotiations with our professional brokering services, ensuring
                 successful deals.
               </p>
-              <button onClick={onFinace}  className="mt-0 sm:mt-6 h-[50px] w-full sm:ml-5 sm:w-2/3  hover:bg-none hover:text-gray-700 hover:underline hover:font-bold hover:text-[18px] transition duration-300 hover:shadow-md ">
+              <button
+                onClick={onFinance}
+                className="mt-0 sm:mt-6 h-[50px] w-full sm:ml-5 sm:w-2/3 hover:bg-none hover:text-gray-700 hover:underline hover:font-bold hover:text-[18px] transition duration-300 hover:shadow-md"
+              >
                 Go to the SERVICES
               </button>
             </div>
