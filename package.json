@@ -50,6 +50,6 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
   },
-  "homepage": "https://Biainili.github.io/evn-business",
+  "homepage": "https://biainili.github.io/EVN-REACT-REACTJS/",
   "proxy": "http://localhost:3002"
 }
