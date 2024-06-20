@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/evn-business/static/css/main.0b1118d3.css",
-    "main.js": "/evn-business/static/js/main.49646622.js",
+    "main.js": "/evn-business/static/js/main.fdd01b97.js",
     "static/js/537.a70c27f0.chunk.js": "/evn-business/static/js/537.a70c27f0.chunk.js",
     "static/js/81.18ce0891.chunk.js": "/evn-business/static/js/81.18ce0891.chunk.js",
     "static/media/video-bg-evnb.mp4": "/evn-business/static/media/video-bg-evnb.8185bac46de4ba82016f.mp4",
@@ -21,12 +21,12 @@
     "static/media/financePhoto.jpg": "/evn-business/static/media/financePhoto.4e7e3bf5783a8b97be74.jpg",
     "index.html": "/evn-business/index.html",
     "main.0b1118d3.css.map": "/evn-business/static/css/main.0b1118d3.css.map",
-    "main.49646622.js.map": "/evn-business/static/js/main.49646622.js.map",
+    "main.fdd01b97.js.map": "/evn-business/static/js/main.fdd01b97.js.map",
     "537.a70c27f0.chunk.js.map": "/evn-business/static/js/537.a70c27f0.chunk.js.map",
     "81.18ce0891.chunk.js.map": "/evn-business/static/js/81.18ce0891.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b1118d3.css",
-    "static/js/main.49646622.js"
+    "static/js/main.fdd01b97.js"
   ]
 }
