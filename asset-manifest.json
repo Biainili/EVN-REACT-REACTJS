@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EVN-REACT-REACTJS/static/css/main.07075d00.css",
-    "main.js": "/EVN-REACT-REACTJS/static/js/main.226fa1df.js",
+    "main.js": "/EVN-REACT-REACTJS/static/js/main.7da12b63.js",
     "static/js/976.503a8de2.chunk.js": "/EVN-REACT-REACTJS/static/js/976.503a8de2.chunk.js",
     "static/js/893.8771632b.chunk.js": "/EVN-REACT-REACTJS/static/js/893.8771632b.chunk.js",
     "static/media/video-bg-evnb.mp4": "/EVN-REACT-REACTJS/static/media/video-bg-evnb.8185bac46de4ba82016f.mp4",
@@ -21,12 +21,12 @@
     "static/media/financePhoto.jpg": "/EVN-REACT-REACTJS/static/media/financePhoto.4e7e3bf5783a8b97be74.jpg",
     "index.html": "/EVN-REACT-REACTJS/index.html",
     "main.07075d00.css.map": "/EVN-REACT-REACTJS/static/css/main.07075d00.css.map",
-    "main.226fa1df.js.map": "/EVN-REACT-REACTJS/static/js/main.226fa1df.js.map",
+    "main.7da12b63.js.map": "/EVN-REACT-REACTJS/static/js/main.7da12b63.js.map",
     "976.503a8de2.chunk.js.map": "/EVN-REACT-REACTJS/static/js/976.503a8de2.chunk.js.map",
     "893.8771632b.chunk.js.map": "/EVN-REACT-REACTJS/static/js/893.8771632b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07075d00.css",
-    "static/js/main.226fa1df.js"
+    "static/js/main.7da12b63.js"
   ]
 }
